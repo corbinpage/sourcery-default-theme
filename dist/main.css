@@ -32,7 +32,7 @@ section#zazu input {
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  color: #87FA7E;
+  color: rgba(135, 250, 126, 1);
 }
 section#zazu iframe#preview {
   border: 0;
