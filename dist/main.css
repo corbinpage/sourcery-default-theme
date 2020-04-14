@@ -78,7 +78,7 @@ section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
   margin: 0;
   padding-left: 10px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(135, 250, 126, 1.0);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
