@@ -5,7 +5,8 @@ body {
   font-size: 20px;
 }
 body.playbook {
-  background-color: #232323;
+  background-color: #60dfcd;
+  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
 }
 body.playbook #install {
   color: #87fa7e;
