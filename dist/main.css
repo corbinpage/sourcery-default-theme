@@ -4,19 +4,20 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  width: 100%;
 }
-body.playbook {
+adf body.playbook {
   background-color: #232323;
 }
-body.playbook #install {
+adf body.playbook #install {
   color: #232323;
 }
-body.playbook .github-corner > svg {
+adf body.playbook .github-corner > svg {
   fill: #232323;
   color: #161616;
 }
  section#zazu {
-  background-color: #60dfcd;
+  background-color: #60dfcdadf;
   background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
   -webkit-app-region: drag;
   cursor: move;
@@ -27,7 +28,7 @@ body.playbook .github-corner > svg {
   width: 100%;
   padding: 10px;
   border: 0;
-  background-color: #60dfcd;
+  background-color: #60dfcdadf;
   background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
   -webkit-app-region: no-drag;
   cursor: auto;
@@ -43,7 +44,7 @@ body.playbook .github-corner > svg {
  section#zazu div.results ul {
   padding: 0;
   margin: 0;
-  border-top: 1px solid rgba(10, 10, 10, 0.9);
+  border-top: 1px solid transparent;
   max-height: 333px;
   overflow: hidden;
   width: 50%;
@@ -58,7 +59,7 @@ body.playbook .github-corner > svg {
   display: block;
   height: 45px;
   line-height: 45px;
-  border-bottom: 1px solid rgba(10, 10, 10, 0.9);
+  border-bottom: 1px solid transparent;
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;

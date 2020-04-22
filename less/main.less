@@ -2,7 +2,7 @@
 /*@textColor: rgba(135, 250, 126, 1.0);*/
 @textColor: #232323;
 @transparency: 90%;
-@backgroundColor: #60dfcd;
+@backgroundColor: #60dfcdadf;
 @backgroundColorTwo: #1e9afe;
 @backgroundImage: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
 
@@ -13,7 +13,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-}
+  width: 100%;
+}adf
 
 body.playbook {
   background-color: @primary;
@@ -58,7 +59,7 @@ section#zazu {
     ul {
       padding: 0;
       margin: 0;
-      border-top: 1px solid fade(darken(@primary, 10%), @transparency);
+      border-top: 1px solid transparent;
       max-height: 333px;
       overflow: hidden;
       width: 50%;
@@ -75,7 +76,7 @@ section#zazu {
         display: block;
         height: 45px;
         line-height: 45px;
-        border-bottom: 1px solid fade(darken(@primary, 10%), @transparency);
+        border-bottom: 1px solid transparent;
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;
