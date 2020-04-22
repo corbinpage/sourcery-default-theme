@@ -2,6 +2,9 @@
 /*@textColor: rgba(135, 250, 126, 1.0);*/
 @textColor: #232323;
 @transparency: 90%;
+@backgroundColor: #60dfcd;
+@backgroundImage: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+
 
 
 
@@ -23,21 +26,21 @@ body.playbook {
     color: darken(@primary, 5%);
   }
 }
-
+  
 section#zazu {
-  background-color: #60dfcd;
-  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+  background-color: @backgroundColor;
+  background-image: @backgroundImage;
   -webkit-app-region: drag;
   cursor: move;
 
   input {
     outline: none;
     font-size: 40px;
-    width: 500px;
+    width: 100%;
     padding: 10px;
     border: 0;
-    background-color: #60dfcd;
-    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+    background-color: @backgroundColor;
+    background-image: @backgroundImage;
     -webkit-app-region: no-drag;
     cursor: auto;
     color: @textColor;
