@@ -11,8 +11,7 @@ html, body {
 }
 
 body.playbook {
-  background-color: #60dfcd;
-  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+  background-color: @primary;
 
   #install {
     color: @textColor;
@@ -39,7 +38,9 @@ section#zazu {
     width: 500px;
     padding: 10px;
     border: 0;
-    background-color: transparent;
+    // background-color: transparent;
+    background-color: #60dfcd;
+    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
     -webkit-app-region: no-drag;
     cursor: auto;
     color: @textColor;
