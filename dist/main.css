@@ -98,6 +98,5 @@ body.playbook .github-corner > svg {
 }
  section#zazu div.results ul li.active,
  section#zazu div.results ul li:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
