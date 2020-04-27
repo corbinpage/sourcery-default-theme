@@ -12,44 +12,29 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: "Helvetica", "Sans Unicode", "Lucida Grande", sans-serif;
   width: 100%;
-}adf
-
-body.playbook {
-  background-color: @primary;
-
-  #install {
-    color: @textColor;
-  }
-
-  .github-corner > svg {
-    fill: @textColor;
-    color: darken(@primary, 5%);
-  }
+  overflow-x: hidden;
 }
-  
+
 section#zazu {
   background-color: @backgroundColor;
   background-image: @backgroundImage;
+  color: @textColor;
   -webkit-app-region: drag;
   cursor: move;
+  overflow-x: hidden;
 
   input {
     outline: none;
-    font-size: 40px;
     width: 100%;
     padding: 10px;
     border: 0;
-    background-color: @backgroundColor;
-    background-image: @backgroundImage;
-    -webkit-app-region: no-drag;
-    cursor: auto;
-    color: @textColor;
-  }
-
-  iframe#preview {
-    border: 0;
+    /*background-color: @backgroundColor;*/
+    /*background-image: @backgroundImage;*/
+    /*-webkit-app-region: no-drag;*/
+    cursor: text;
   }
 
   div.results {
@@ -59,7 +44,7 @@ section#zazu {
     ul {
       padding: 0;
       margin: 0;
-      border-top: 1px solid transparent;
+      /*border-top: 0px solid transparent;*/
       max-height: 333px;
       overflow: hidden;
       width: 50%;
@@ -76,7 +61,7 @@ section#zazu {
         display: block;
         height: 45px;
         line-height: 45px;
-        border-bottom: 1px solid transparent;
+        /*border-bottom: 0px solid transparent;*/
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;

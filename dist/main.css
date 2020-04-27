@@ -4,68 +4,57 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: "Helvetica", "Sans Unicode", "Lucida Grande", sans-serif;
   width: 100%;
+  overflow-x: hidden;
 }
-adf body.playbook {
-  background-color: #232323;
-}
-adf body.playbook #install {
-  color: #232323;
-}
-adf body.playbook .github-corner > svg {
-  fill: #232323;
-  color: #161616;
-}
- section#zazu {
+section#zazu {
   background-color: #60dfcd;
   background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+  color: #232323;
   -webkit-app-region: drag;
   cursor: move;
+  overflow-x: hidden;
 }
- section#zazu input {
+section#zazu input {
   outline: none;
-  font-size: 40px;
   width: 100%;
   padding: 10px;
   border: 0;
-  background-color: #60dfcd;
-  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
-  -webkit-app-region: no-drag;
-  cursor: auto;
-  color: #232323;
+  /*background-color: @backgroundColor;*/
+  /*background-image: @backgroundImage;*/
+  /*-webkit-app-region: no-drag;*/
+  cursor: text;
 }
- section#zazu iframe#preview {
-  border: 0;
-}
- section#zazu div.results {
+section#zazu div.results {
   display: flex;
   flex-direction: row;
 }
- section#zazu div.results ul {
+section#zazu div.results ul {
   padding: 0;
   margin: 0;
-  border-top: 1px solid transparent;
+  /*border-top: 0px solid transparent;*/
   max-height: 333px;
   overflow: hidden;
   width: 50%;
 }
- section#zazu div.results ul:last-child {
+section#zazu div.results ul:last-child {
   width: 100%;
 }
- section#zazu div.results ul + div {
+section#zazu div.results ul + div {
   width: 50%;
 }
- section#zazu div.results ul li {
+section#zazu div.results ul li {
   display: block;
   height: 45px;
   line-height: 45px;
-  border-bottom: 1px solid transparent;
+  /*border-bottom: 0px solid transparent;*/
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
 }
- section#zazu div.results ul li .icon {
+section#zazu div.results ul li .icon {
   color: #232323;
   text-align: center;
   line-height: 30px;
@@ -75,8 +64,8 @@ adf body.playbook .github-corner > svg {
   float: left;
   opacity: 0.75;
 }
- section#zazu div.results ul li h2,
- section#zazu div.results ul li h3 {
+section#zazu div.results ul li h2,
+section#zazu div.results ul li h3 {
   margin: 0;
   padding-left: 10px;
   color: #232323;
@@ -86,19 +75,19 @@ adf body.playbook .github-corner > svg {
   font-family: "Helvetica", "Sans Unicode", "Lucida Grande", sans-serif;
   font-weight: 400;
 }
- section#zazu div.results ul li h2 {
+section#zazu div.results ul li h2 {
   font-size: 20px;
   line-height: 25px;
 }
- section#zazu div.results ul li h2:last-child {
+section#zazu div.results ul li h2:last-child {
   font-size: 20px;
   line-height: 45px;
 }
- section#zazu div.results ul li h3 {
+section#zazu div.results ul li h3 {
   font-size: 15px;
   line-height: 15px;
 }
- section#zazu div.results ul li.active,
- section#zazu div.results ul li:hover {
+section#zazu div.results ul li.active,
+section#zazu div.results ul li:hover {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
