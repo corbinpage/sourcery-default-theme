@@ -4,7 +4,7 @@ A dark theme example written in LESS with node/gulp.
 
 ## Installing
 
-Mark `corbinpage/wiz-theme` inside of your `~/.zazurc.json` file.
+Mark `corbinpage/wiz-theme` inside of your `~/.json` file.
 
 ~~~ json
 {

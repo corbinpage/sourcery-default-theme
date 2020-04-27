@@ -1,12 +1,12 @@
 {
-  "name": "zazu-dark-theme",
+  "name": "wiz-theme",
   "version": "1.0.0",
-  "description": "A dark theme for Zazu.",
+  "description": "Wiz theme",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build"
   },
-  "author": "Blaine Schmeisser",
+  "author": "Corbin Page",
   "license": "MIT",
   "dependencies": {
     "gulp": "^4.0.2",
