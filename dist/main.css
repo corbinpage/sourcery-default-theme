@@ -90,5 +90,5 @@ section#zazu div.results ul li h3 {
 section#zazu div.results ul li.active,
 section#zazu div.results ul li:hover {
   /*background-color: fade(darken(@backgroundColor, 8%), @transparency);*/
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
 }
