@@ -101,7 +101,13 @@ section#zazu {
           line-height: 15px;
         }
 
-        &.active, &:hover {
+        &.active{
+          border-top: 1px solid fade(darken(@primary, 10%), @transparency);
+          /*background-color: fade(darken(@backgroundColor, 8%), @transparency);*/
+          /*background-color: rgba(0, 0, 0, 0.15);*/
+        }
+
+        &:hover {
           /*background-color: fade(darken(@backgroundColor, 8%), @transparency);*/
           background-color: rgba(0, 0, 0, 0.15);
         }
