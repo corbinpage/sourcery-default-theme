@@ -37,7 +37,8 @@ section#zazu div.results ul {
   /*border-top: 1px solid fade(darken(@primary, 10%), @transparency);*/
   max-height: 333px;
   overflow: hidden;
-  flex-basis: 50%;
+  flex: none;
+  width: 50%;
 }
 section#zazu div.results ul:last-child {
   width: 100%;
