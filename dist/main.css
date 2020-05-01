@@ -11,14 +11,14 @@ body {
 }
 section#zazu {
   background-color: #6165ff;
-  background-image: linear-gradient(90deg, #6165ff 0%, #6bd5a1 100%);
+  background-image: linear-gradient(90deg, #6165ff 25%, #6bd5a1 75%);
   -webkit-app-region: drag;
   cursor: move;
   overflow-x: hidden;
 }
 section#zazu input {
   background-color: #6165ff;
-  background-image: linear-gradient(90deg, #6165ff 0%, #6bd5a1 100%);
+  background-image: linear-gradient(90deg, #6165ff 25%, #6bd5a1 75%);
   font-size: 40px;
   color: #232323;
   outline: none;
