@@ -44,7 +44,7 @@ section#zazu {
     ul {
       padding: 0;
       margin: 0;
-      border-top: 1px solid fade(darken(@primary, 10%), @transparency);
+      /*border-top: 1px solid fade(darken(@primary, 10%), @transparency);*/
       max-height: 333px;
       overflow: hidden;
       width: 50%;
@@ -61,7 +61,7 @@ section#zazu {
         display: block;
         height: 45px;
         line-height: 45px;
-        border-bottom: 1px solid fade(darken(@primary, 10%), @transparency);
+        /*border-bottom: 1px solid fade(darken(@primary, 10%), @transparency);*/
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;
@@ -103,7 +103,7 @@ section#zazu {
         }
 
         &.active, &:hover {
-          background-color: fade(lighten(@primary, 20%), @transparency);
+          background-color: fade(darken(@backgroundColor, 20%), @transparency);
         }
       }
     }
