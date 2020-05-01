@@ -87,11 +87,7 @@ section#zazu div.results ul li h3 {
   font-size: 15px;
   line-height: 15px;
 }
-section#zazu div.results ul li.active {
-  border-top: 1px solid rgba(10, 10, 10, 0.9);
-  /*background-color: fade(darken(@backgroundColor, 8%), @transparency);*/
-  /*background-color: rgba(0, 0, 0, 0.15);*/
-}
+section#zazu div.results ul li.active,
 section#zazu div.results ul li:hover {
   /*background-color: fade(darken(@backgroundColor, 8%), @transparency);*/
   background-color: rgba(0, 0, 0, 0.15);
